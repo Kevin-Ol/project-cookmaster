@@ -3,7 +3,7 @@ const fs = require('fs');
 const { MongoClient } = require('mongodb');
 require('dotenv').config();
 
-const mongoDbUrl = `mongodb://${process.env.HOST || 'mongodb'}:27017/Cookmaster`;
+const mongoDbUrl = `mongodb://localhost:27017/Cookmaster`;
 const url = 'http://localhost:3000';
 
 describe('6 - Crie uma query em mongo que insira uma pessoa usuária com permissões de admin', () => {
