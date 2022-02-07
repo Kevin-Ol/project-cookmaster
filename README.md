@@ -31,10 +31,7 @@ utilizando as bibliotecas Mocha, Chain e Sinon.
   
 2. Para executar os testes de integração
   * `npm run dev:test`
-  
-3. Para executar os testes dos requisitos do projeto
-  * `npm test`
-  
+
 ---
 
 ## Rotas
